@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de registro</title>
+	<link rel="stylesheet" href="./style-formulario.css">
+</head>
+<body>
+    <div class="main-wrapper">
+	    <h1>Formulario de registro</h1>
+
+	    <form class="form">
+            <div class="userName">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="" placeholder="Juan"><br>
+                <br>
+            </div>
+
+            <div class="userLastname">
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" name="" value="" placeholder="Garcia"><br>
+                <br>
+            </div>
+            
+            <div class="userGender">
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" value="Hombre"> Hombre
+                <input type="radio" name="sexo" value="Mujer"> Mujer
+                <input type="radio" name="sexo" value="otro"> Otro
+            </div>
+            <br>
+            <div class="userMail">
+                <label for="correo">Correo:</label>
+                <input type="text" id="correo" name="correo" value="" placeholder="correo@ejemplo.com">
+            </div>
+			<br>
+			<div class="userCity">
+                <label for="ciudad">Ciudad:</label>
+                <select name="ciudad" id="ciudad">
+	                <option value="" selected>Rosario</option>
+	                <option value="buenosaires">Buenos Aires</option>
+	                <option value="córdoba">Córdoba</option>
+	                <option value="parana">Paraná</option>
+                </select>
+            </div>
+            <br>
+			<div class="description">
+                <label for="descripcion">Descripción:</label><br>
+                <textarea name="descripcion" id="descripciion" cols="20" rows="2"></textarea><br />
+            </div>
+			<br>
+            <div class="userAgreement">
+                <input type="checkbox" name="deseo" id="descripcion" value="deseo"> Deseo recibir información sobre novedades y ofertas <br> 
+                <input type="checkbox" name="declaro" id="descripcion" value="declaro"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+            </div>
+            <br>
+            <div class="submitBtn">
+                <input type="submit" name="enviar" value="Enviar">
+            </div>
+		    
+			
+			
+			
+			
+			
+			
+			
+        
+			
+            
+            
+            
+        
+		    
+		
+            
+        </form>
+    </div>    
+</body>
+</html>
